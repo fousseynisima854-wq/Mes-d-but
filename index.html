@@ -1,22 +1,78 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Dakar Elégance</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+<script>
+  document.getElementById("btn-rdv").addEventListener("click", function() {
+  alert("Merci ! Nous vous contacterons bientôt.");
+});
+</script>
 <body>
-    <section class="social-section">
-    <h2>Suivez mon parcours</h2>
-    <div class="social-links">
-    <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
-    <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
-    <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
-</div>
-    </div>
+
+  <nav>
+    <p>Dakar Elégance</p>
+    <ul>
+      <li>À propos</li>
+      <li>Services</li>
+      <li>Galerie</li>
+      <li>Contact</li>
+    </ul>
+  </nav>
+  <!-- Le hero -->
+<section class="hero">
+  <h1>Révélez votre Beauté</h1>
+  <p>Le meilleur salon de coiffure de Guédiawaye.</p>
+  <button id="btn-rdv">Prendre RDV</button>
 </section>
+<!-- À propos -->
+<section class="apropos">
+  <h2>À Propos de Nous</h2>
+  <p>Avec plus de 10 ans d'expérience, notre équipe de passionnés vous accueille pour des coupes modernes et des soins capillaires d'exception.</p>
+</section>
+
+<!-- Services -->
+<section class="services">
+  <h2>Nos Services</h2>
+  <div class="cartes">
+
+    <div class="carte">
+      <h3>Coupe Homme</h3>
+      <p>Taille de barbe et coupe moderne.</p>
+      <p class="prix">5000 FCFA</p>
+    </div>
+
+    <div class="carte">
+      <h3>Coiffure Femme</h3>
+      <p>Brushing, tresses et colorations.</p>
+      <p class="prix">10000 FCFA</p>
+    </div>
+
+    <div class="carte">
+      <h3>Soins</h3>
+      <p>Traitement complet du cuir chevelu.</p>
+      <p class="prix">7500 FCFA</p>
+    </div>
+
+  </div>
+</section>
+<!-- Contact -->
+<section class="contact">
+  <h2>Contactez-nous</h2>
+  <input type="text" placeholder="Votre Nom">
+  <input type="email" placeholder="Votre Email">
+  <textarea placeholder="Votre message"></textarea>
+  <button>Envoyer</button>
+</section>
+<script>
     
+  document.getElementById("btn-rdv").addEventListener("click", function() {
+    alert("Merci ! Nous vous contacterons bientôt.");
+  });
+
+</script>
+
 </body>
 </html>
